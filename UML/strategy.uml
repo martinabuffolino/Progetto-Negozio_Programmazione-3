@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>strategy.pattern</OriginalElement>
+  <nodes>
+    <node x="-65.5" y="188.0">strategy.pattern.TipoTabella</node>
+    <node x="-57.5" y="-15.0">strategy.pattern.TabellaStrategy</node>
+    <node x="-89.0" y="89.0">strategy.pattern.Tabella_Prenotazioni</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategy.pattern.Tabella_Prenotazioni" target="strategy.pattern.TabellaStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="45.5" y="123.5" />
+  <SelectedNodes>
+    <node>strategy.pattern.TabellaStrategy</node>
+    <node>strategy.pattern.TipoTabella</node>
+    <node>strategy.pattern.Tabella_Prenotazioni</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>singleton.pattern</OriginalElement>
+  <nodes>
+    <node x="-100.5" y="120.66666666666669">singleton.pattern.Database</node>
+    <node x="-91.0" y="-15.0">singleton.pattern.SingletonConnection</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="31.5" y="105.5" />
+  <SelectedNodes>
+    <node>singleton.pattern.Database</node>
+    <node>singleton.pattern.SingletonConnection</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factory.pattern</OriginalElement>
+  <nodes>
+    <node x="-66.83333333333331" y="188.33333333333331">factory.pattern.CreditCardFactory</node>
+    <node x="66.66666666666669" y="69.33333333333331">factory.pattern.Factory</node>
+    <node x="-287.5" y="136.0">factory.pattern.DatiSensibiliCliente</node>
+    <node x="200.16666666666669" y="188.33333333333331">factory.pattern.PayPalFactory</node>
+    <node x="-317.6666666666667" y="310.0">factory.pattern.PayPal</node>
+    <node x="-171.99999999999997" y="321.5">factory.pattern.CreditCard</node>
+    <node x="-313.0" y="62.0">factory.pattern.MetodoPagamentoFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.pattern.PayPalFactory" target="factory.pattern.Factory" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="318.6666666666667" y="178.33333333333331" />
+      <point x="185.16666666666669" y="178.33333333333331" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="factory.pattern.CreditCardFactory" target="factory.pattern.Factory" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="51.666666666666686" y="178.33333333333331" />
+      <point x="185.16666666666669" y="178.33333333333331" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="factory.pattern.DatiSensibiliCliente" target="factory.pattern.MetodoPagamentoFactory" relationship="REALIZATION">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="factory.pattern.PayPal" target="factory.pattern.DatiSensibiliCliente" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="-257.1666666666667" y="300.0" />
+      <point x="-201.5" y="300.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="factory.pattern.CreditCard" target="factory.pattern.DatiSensibiliCliente" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="-111.49999999999997" y="300.0" />
+      <point x="-201.5" y="300.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="73.5" y="246.0" />
+  <SelectedNodes>
+    <node>factory.pattern.CreditCard</node>
+    <node>factory.pattern.PayPalFactory</node>
+    <node>factory.pattern.PayPal</node>
+    <node>factory.pattern.CreditCardFactory</node>
+    <node>factory.pattern.DatiSensibiliCliente</node>
+    <node>factory.pattern.MetodoPagamentoFactory</node>
+    <node>factory.pattern.Factory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
